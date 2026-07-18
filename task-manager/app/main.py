@@ -1,6 +1,6 @@
-from fastapi import FastApi
+from fastapi import FastAPI
 
-app = FastApi()
+app = FastAPI()
 
 tasks = [
     {"id": 1, "name": "Learn Docker"},
